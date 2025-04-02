@@ -3,17 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
+ 
+ 
 .cabecalho{
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
 }
-
+ 
 input{
     margin-top: .5rem;
 }
-
+ 
 .t{
     padding: .7rem;
     padding-inline: 8rem;
@@ -21,17 +23,16 @@ input{
     border-radius: .5rem;
     border: .1px solid;
 }
-
+ 
 .img{
-    margin-top: -2.1rem;
+    margin-top: -2.5rem;
     margin-left: 5px;
-
 }
-
+ 
 .botoes{
     margin-right: 8rem;
 }
-
+ 
 .botao01{
     padding-inline: 1rem;
     padding: .5rem;
@@ -41,59 +42,129 @@ input{
     border: 1.5px gold solid;
     background-color: #fff;
 }
-
+ 
 .botao02{
     padding-inline: 1rem;
     padding: .5rem;
     border-radius: 2rem;
     border: none;
     background-color: gold;
-    
+   
 }
-
+ 
 .sidebar {
     margin-top: 3rem;
-    width: 250px;
+    width: 27rem;
     height: 100vh; /* Altura total da janela */
     overflow-y: scroll; /* Adiciona o scroll vertical */
     background-color: #f4f4f4;
     padding: 15px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 }
-
+ 
 /* Conteúdo dentro da barra lateral */
 .sidebar-content {
     height: 1500px; /* Altura maior para demonstrar o scroll */
     display: flex;
     justify-content: space-between;
 }
-
+ 
 .limparTudo{
     color: red;
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 1rem;
 }
-
+ 
 .filtros{
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 1rem;
 }
-
+ 
 .lixeiraVermelha{
     border: none;
 }
 
+/*filtos e pesquisa*/
+
 .drop{
     margin-top: -90rem;
     display: flex;
-    font-size: 12px;
+    justify-content: space-around;
+    font-size: 16px;
+    background-color: gold;
+    border-radius: .5rem;
+    border: 1px black solid;
 }
-
+ 
 .filtroAplicado{
     border: none;
-    margin-inline: 1.2rem;
     background-color: transparent;
-    margin-top: -0.8rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: .5rem;
 }
-
+ 
 .pesquisaAtual{
     font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    padding: .5rem;
 }
+
+/*botoes compra ou aluga*/
+
+.compraOuAluga{
+    margin-top: 2rem;
+    display: flex;
+
+}
+ 
+.compra{
+    padding: .7rem;
+    padding-inline: 4rem;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem;
+}
+ 
+.aluga{
+    padding: .7rem;
+    padding-inline: 4rem;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem;
+    margin-left: 1rem;
+}
+ 
+.btn-group{
+    margin-top: 2rem;
+}
+
+.dropdown{
+    border: 1px black solid;
+    padding-right: 16.2rem;
+    margin-block: -.7rem;
+    border-radius: .4rem;
+}
+
+.SelecaoPaís{
+    justify-content: flex-start;
+    display: flex;
+    font-size: 15px;
+}
+
+.país{
+    font-size: 14px;
+    text-align: start;
+    justify-content: flex-start;
+    display: flex
+}
+
+
+ 
