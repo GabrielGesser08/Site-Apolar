@@ -50,3 +50,50 @@ input{
     background-color: gold;
     
 }
+
+.sidebar {
+    margin-top: 3rem;
+    width: 250px;
+    height: 100vh; /* Altura total da janela */
+    overflow-y: scroll; /* Adiciona o scroll vertical */
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Conteúdo dentro da barra lateral */
+.sidebar-content {
+    height: 1500px; /* Altura maior para demonstrar o scroll */
+    display: flex;
+    justify-content: space-between;
+}
+
+.limparTudo{
+    color: red;
+    font-size: 14px;
+}
+
+.filtros{
+    font-size: 14px;
+}
+
+.lixeiraVermelha{
+    border: none;
+}
+
+.drop{
+    margin-top: -90rem;
+    display: flex;
+    font-size: 12px;
+}
+
+.filtroAplicado{
+    border: none;
+    margin-inline: 1.2rem;
+    background-color: transparent;
+    margin-top: -0.8rem;
+}
+
+.pesquisaAtual{
+    font-weight: bold;
+}
