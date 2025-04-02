@@ -167,4 +167,96 @@ input{
 }
 
 
- 
+/*ImovelEComercial*/
+
+.ImovelEComercial{
+    margin-top: .5cm;
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+    border: 1px black solid;
+    border-radius: .5rem;
+}
+
+
+
+.imovel{
+    padding: .7rem;
+    padding-inline: 1.5rem;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem;
+}
+
+
+.comercial{
+    padding: .7rem;
+    padding-inline: 3.3rem;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem;  
+}
+
+/*botoesTiposImoveis*/
+
+.tituloTipos{
+    margin-top: 2rem;
+}
+
+.botoesTiposImoveis{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -3rem;
+    border: none;
+}
+
+.linhaButton01{
+    border-bottom: 2px black solid;
+    margin-top: 2rem;
+}
+
+.BtiposDeImoveis{
+    padding-inline: 1.2rem;
+    border: none;
+    background-color: #fff;
+    border-radius: .5rem; 
+    margin-bottom: 2rem;
+    border: black solid 1px;   
+}
+
+
+
+
+
+
+.tiposDeImoveis01{
+    margin: 5px;
+    padding-block: 1.5rem;
+    padding-inline: 10px;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem; 
+    
+}
+.tiposDeImoveis02{
+    margin: 5px;
+    padding-block: 1.5rem;
+    padding-inline: 20px;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem; 
+    
+}
+
+.margin{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.margin02{
+
+    display: flex;
+    justify-content: space-between;
+} 
+
